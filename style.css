@@ -2790,3 +2790,18 @@ footer {
     justify-self: center;
   }
 }
+
+.group-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-gold);
+}
+
+.cta-section {
+  background: linear-gradient(135deg, var(--dark) 0%, var(--dark-mid) 100%);
+  padding: 101px 0;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+}
